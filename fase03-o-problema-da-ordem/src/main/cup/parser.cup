@@ -44,7 +44,7 @@ start with program;
 program ::= stmt_list ;
 
 stmt_list ::= stmt_list stmt
-            | /* vazio */
+            |
             ;
 
 stmt ::= assign_stmt
